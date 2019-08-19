@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+body {
+	margin: 0;
+	padding: 0;	
+	background-color:white;
+	
+}
+
+.center {
+    margin: 10% 10% 10% 10%;
+    /* display: block; */
+}
+
+section{
+	padding-top: 80px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	padding: 10px 10px;
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 40px;
+}
+
+.column_products{
+	float: left;
+	width:70%;
+	height: 100%;
+	padding: 15px;
+
+	align-content: center;
+}
+
+
+.column_checkout{
+	float: right;
+	/* position: fixed; */
+	width:30%;
+	height: 100%;
+	margin-left: 70%;
+	border: solid;
+	
+}
+
+
+
+@media screen and (max-width: 500px) {
+	header{
+	 position: fixed;
+	 float: none;
+	 display: block;
+	 text-align: left;
+	 height: 40px;
+	 font-family: 'Lexend Mega', sans-serif;
+	font-size: 10px;
+	}
+
+	section{
+		padding-top: 40px;
+	}
+	
+  }
+
+/* This is our sketch from products */
+
+/* #draggable { 
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	float: left;
+	margin: 10px 10px 10px 0;
+	background-color:red;
+	 
+}
+  #droppable { 
+	width: 150px;
+	height: 150px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px; 
+	background-color:yellow;
+
+	float: right;
+	position: fixed;
+	width:30%;
+	height: 100%;
+	margin-left: 70%;
+	border: solid;
+} */
+#draggable1 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable2 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable3 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable4 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable5 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable6 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable7 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable8 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#draggable9 { width: 40%; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; border: solid; border-color: black; background-color: white; }
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; 
+
+}
+
